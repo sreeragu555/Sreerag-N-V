@@ -13,6 +13,11 @@ module.exports = {
     //     'gradient-conic':
     //       'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
     //   },
+	screens: {
+        'sm': '390px',
+        'md': '768px',
+        'lg': '1024px',
+	},
       animation: {
 				"fade-in": "fade-in 3s ease-in-out forwards",
 				title: "title 3s ease-out forwards",
