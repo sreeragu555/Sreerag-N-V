@@ -1,19 +1,4 @@
-.H-line{
-    height:5px;
-    width:1px;
-    border-bottom:1px solid #ffffff;
-    -webkit-animation: increase 3s;
-    -moz-animation:    increase 3s; 
-    -o-animation:      increase 3s; 
-    animation:         increase 3s; 
-    animation-fill-mode: forwards;
-  }
-  
-  @keyframes increase {
-      90% {
-        width: 50%;
-      }
-      100%{
-        width: 0;
-      }
-  }
+.MainPage{
+background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(129,129,129,1) 35%, rgba(0,22,27,1) 100%);
+}
